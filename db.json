@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "name": "projeto 1",
+      "budget": "10000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 5000,
+      "services": [
+        {
+          "name": "custo 1",
+          "cost": "5000",
+          "description": "custo 1",
+          "id": "6079053b-680d-4217-91ee-525fbde0bfea"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "projeto 2",
+      "budget": "12000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 4000,
+      "services": [
+        {
+          "name": "custo 1 do segundo serviço",
+          "cost": "4000",
+          "description": "custos",
+          "id": "02d2ec1c-52bc-4a7f-abdd-8ce9b8cdfffe"
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
